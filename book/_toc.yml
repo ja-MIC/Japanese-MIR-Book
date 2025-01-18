@@ -10,6 +10,7 @@ parts:
   - caption: '自動採譜'
     chapters:
       - file: automatic_transcription/score_formulations
+      - file: automatic_transcription/datasets
       #- file: automatic_transcription/multitask_learning
       #- file: automatic_transcription/generative_modeling
       #- file: automatic_transcription/evaluation
@@ -21,3 +22,10 @@ parts:
       #- file: music_source_separation/sdr_pitfalls
       #- file: music_source_separation/band_split
       #- file: music_source_separation/beyond_4_sources
+  - caption: '深層学習'
+    chapters:
+      - file: deep_learning/front_ends
+      - file: deep_learning/projections
+      #- file: deep_learning/bottleneck
+      #- file: deep_learning/architectures
+      #- file: deep_learning/paradigms
