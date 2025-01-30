@@ -29,3 +29,8 @@ parts:
       #- file: deep_learning/bottleneck
       #- file: deep_learning/architectures
       #- file: deep_learning/paradigms
+  - caption: '音楽合成'
+    chapters:
+      - file: music_generation/targets
+      - file: music_generation/generative_models
+      # - file: music_generation/evaluation
