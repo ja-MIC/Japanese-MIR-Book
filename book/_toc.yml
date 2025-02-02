@@ -18,6 +18,7 @@ parts:
   - caption: '音楽音源分離'
     chapters:
       - file: music_source_separation/unet
+      - file: music_source_separation/datasets
       #- file: music_source_separation/mask_or_generate
       #- file: music_source_separation/sdr_pitfalls
       #- file: music_source_separation/band_split
