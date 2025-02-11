@@ -15,6 +15,6 @@ https://magenta.tensorflow.org/datasets/maestro
 
 https://zenodo.org/records/5120004
 
-## Slakh
+## Slakh2100
 
 http://www.slakh.com/
