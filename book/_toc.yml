@@ -15,10 +15,13 @@ parts:
       #- file: automatic_transcription/generative_modeling
       #- file: automatic_transcription/evaluation
       #- file: automatic_transcription/post_processing
-  - caption: '音楽音源分離'
+  - caption: '音楽解析'
     chapters:
-      - file: music_source_separation/unet
-      - file: music_source_separation/datasets
+      - file: music_analysis/beat_tracking_losses
+  #- caption: '音楽音源分離'
+  #  chapters:
+      #- file: music_source_separation/unet
+      #- file: music_source_separation/datasets
       #- file: music_source_separation/mask_or_generate
       #- file: music_source_separation/sdr_pitfalls
       #- file: music_source_separation/band_split

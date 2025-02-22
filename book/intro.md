@@ -11,4 +11,4 @@ Discordサーバー「**音楽情報処理コミュニティ**」によるプロ
             alt="音楽情報処理コミュニティ">
 </a>
 
-
+要望や修正点指摘は[GitHubリポジトリ](https://github.com/ja-MIC/Japanese-MIR-Book)のIssuesでも受け付けております。
