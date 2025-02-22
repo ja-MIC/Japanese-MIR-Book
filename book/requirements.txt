@@ -6,3 +6,4 @@ torchaudio
 symusic
 pretty_midi
 miditok
+ipykernel
