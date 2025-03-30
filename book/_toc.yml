@@ -30,6 +30,7 @@ parts:
     chapters:
       - file: deep_learning/front_ends
       - file: deep_learning/projections
+      - file: deep_learning/data_augmentation
       #- file: deep_learning/bottleneck
       #- file: deep_learning/architectures
       #- file: deep_learning/paradigms

@@ -9,3 +9,5 @@ symusic
 pretty_midi
 miditok
 ipykernel
+torch-audiomentations
+pedalboard

@@ -6,9 +6,15 @@
 Discordサーバー「**音楽情報処理コミュニティ**」によるプロジェクトです。
 ぜひサーバーにご参加ください！
 
+## Discordサーバー
+
 <a href="https://discord.gg/RJRS8pmpwT">
         <img src="https://img.shields.io/discord/1319190512523280414?style=social&logo=discord&label=音楽情報処理コミュニティ"
             alt="音楽情報処理コミュニティ">
 </a>
 
-要望や修正点指摘は[GitHubリポジトリ](https://github.com/ja-MIC/Japanese-MIR-Book)のIssuesでも受け付けております。
+本サイト[Jupyter Book](https://jupyterbook.org/)に基づくはオープンソースプロジェクトです。要望や修正点指摘は
+
+## 要望・修正点指摘
+
+Discordサーバーか、[GitHubリポジトリ](https://github.com/ja-MIC/Japanese-MIR-Book)のIssuesまでお寄せ下さい。
