@@ -11,3 +11,5 @@ miditok
 ipykernel
 torch-audiomentations
 pedalboard
+museval
+torchmetrics

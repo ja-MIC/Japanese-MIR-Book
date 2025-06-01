@@ -23,7 +23,7 @@ parts:
       #- file: music_source_separation/unet
       #- file: music_source_separation/datasets
       #- file: music_source_separation/mask_or_generate
-      #- file: music_source_separation/sdr_pitfalls
+      - file: music_source_separation/eval_metrics
       - file: music_source_separation/band_split
       #- file: music_source_separation/beyond_4_sources
   - caption: '🤖深層学習'
