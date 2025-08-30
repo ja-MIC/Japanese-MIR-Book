@@ -34,3 +34,6 @@ parts:
       #- file: deep_learning/bottleneck
       #- file: deep_learning/architectures
       #- file: deep_learning/paradigms
+  - caption: '📊データ'
+    chapters:
+      - file: data/annotation_tools
