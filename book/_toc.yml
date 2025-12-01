@@ -11,6 +11,7 @@ parts:
     chapters:
       - file: automatic_transcription/score_formulations
       - file: automatic_transcription/datasets
+      - file: automatic_transcription/diff_dtw
       #- file: automatic_transcription/multitask_learning
       #- file: automatic_transcription/generative_modeling
       #- file: automatic_transcription/evaluation
