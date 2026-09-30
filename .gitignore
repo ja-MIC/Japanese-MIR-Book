@@ -1,3 +1,11 @@
 .vscode/*
 book/_build/*
 *.pyc
+
+# Copilot instructions, prompts, agents and skills (not published for now)
+.github/copilot-instructions.md
+.github/instructions/
+.github/prompts/
+.github/agents/
+.github/skills/
+AGENTS.md

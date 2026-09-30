@@ -1,0 +1,52 @@
+# Jupyter Book 2 (MyST) configuration
+# See https://jupyterbook.org/stable/ and https://mystmd.org/guide/configuration
+version: 1
+project:
+  title: 逆引き音楽情報処理ガイド
+  authors:
+    - name: 音楽情報処理コミュニティ
+  github: https://github.com/ja-MIC/Japanese-MIR-Book
+  bibliography:
+    - references.bib
+  toc:
+    - file: intro.md
+    - title: 🔊信号処理
+      children:
+        - file: signal_processing/xxgrams.ipynb
+    - title: 🎼自動採譜
+      children:
+        - file: automatic_transcription/score_formulations.ipynb
+        # - file: automatic_transcription/datasets.md
+        - file: automatic_transcription/soft_dtw.ipynb
+        #- file: automatic_transcription/multitask_learning
+        #- file: automatic_transcription/generative_modeling
+        #- file: automatic_transcription/evaluation
+        #- file: automatic_transcription/post_processing
+    - title: 🔎音楽解析
+      children:
+        - file: music_analysis/beat_tracking_losses.ipynb
+    - title: 🎚️音楽音源分離
+      children:
+        #- file: music_source_separation/unet
+        #- file: music_source_separation/datasets
+        #- file: music_source_separation/mask_or_generate
+        - file: music_source_separation/eval_metrics.ipynb
+        - file: music_source_separation/band_split.ipynb
+        - file: music_source_separation/loss_functions.ipynb
+        #- file: music_source_separation/sam-audio-juege
+        #- file: music_source_separation/beyond_4_sources
+    - title: 🤖深層学習
+      children:
+        - file: deep_learning/front_ends.ipynb
+        - file: deep_learning/projections.ipynb
+        - file: deep_learning/data_augmentation.ipynb
+        #- file: deep_learning/bottleneck
+        #- file: deep_learning/architectures
+        #- file: deep_learning/paradigms
+    - title: 📊データ
+      children:
+        - file: data/annotation_tools.md
+site:
+  template: book-theme
+  options:
+    logo: logo.png

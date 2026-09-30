@@ -21,24 +21,25 @@ Python仮想環境下で、以下のコマンドを実行することでサイ�
 pip install -r book/requirements.txt
 ```
 
+Jupyter Book 2の実行にはNode.js（18、20、22以降）が必要です。
+
 # JupyterBookのビルド
 ローカル環境でサイトの内容を確認するには、以下のコマンドを実行しJupyterBookをビルドしてください。
 
 ```
-jupyter-book build book/
+cd book
+jupyter book build --html
 ```
 
-ビルドを実行すると、`book/_build/`の下に静的サイトのデータが生成されます。
+編集中に開発サーバーで確認する場合は、`book/`で`jupyter book start`を実行します。
+
+ビルドを実行すると、`book/_build/html/`の下に静的サイトのデータが生成されます。
+
+Jupyter Book 2の出力は絶対パスとJavaScriptで動作するため、`index.html`を直接開いても表示されません。HTTPサーバー経由で閲覧してください。
 
 ```
-book
- └──_build
-    └── html
-       ├── _images
-       ├── _static
-       ├── index.html
-       ├── intro.html
-       ...
+cd book
+python -m http.server 8000 -d _build/html
 ```
 
-ブラウザで`book/_build/html/index.html`を開き、ビルドされたブックの内容を閲覧できます。
+ブラウザで`http://localhost:8000/`を開くと、ビルドされたブックの内容を閲覧できます。

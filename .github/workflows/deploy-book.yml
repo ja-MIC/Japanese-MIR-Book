@@ -34,14 +34,23 @@ jobs:
         with:
           python-version: 3.11
   
+      # Jupyter Book 2 requires Node.js 18, 20 or 22+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
       - name: Install dependencies
         run: |
           pip install -r book/requirements.txt
   
       # Build the book
       - name: Build the book
+        working-directory: book
+        env:
+          BASE_URL: /${{ github.event.repository.name }}
         run: |
-          jupyter-book build book/
+          jupyter book build --html
   
       # Upload the book's HTML as an artifact
       - name: Upload artifact
